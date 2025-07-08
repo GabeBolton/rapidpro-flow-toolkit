@@ -1,7 +1,18 @@
 site_name: RapidPro Flow Toolkit
 site_url: https://mydomain.org/rpft
-# theme:
-#   name: material
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - components.md
+  - google.md
+  - sheets.md
+  - surveys.md
+  - rapidpro.md
+  - models.md
+  - google.md
+  - development.md
 
 draft_docs:
   _unpublished.md       # Any md file ending in _unpublished.md
@@ -17,4 +28,4 @@ plugins:
       # if set the docs directory will not be removed when importing docs.
       # When using this with a nav section in an imported repo you must keep the
       # docs directory in the path (e.g., docs/path/to/file.md).
-      keep_docs_dir: true
+      keep_docs_dir: false
